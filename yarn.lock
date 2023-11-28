@@ -32,3 +32,8 @@ thingies@^1.11.1:
   version "1.14.2"
   resolved "https://registry.yarnpkg.com/thingies/-/thingies-1.14.2.tgz#44787233f2b99aac84e398a40d74a5107125d96d"
   integrity sha512-sbwAaWmbosdmuDJH3xfQXoUmgGOcrhC1YPAqN5kHEyylQpnm5DadUC2lgYb7fvLGgAf3RlwOp9f9qZ65Lh9iqA==
+
+yarn@^1.22.21:
+  version "1.22.21"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.21.tgz#1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
+  integrity sha512-ynXaJsADJ9JiZ84zU25XkPGOvVMmZ5b7tmTSpKURYwgELdjucAOydqIOrOfTxVYcNXe91xvLZwcRh68SR3liCg==
