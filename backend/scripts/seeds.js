@@ -12,7 +12,7 @@ const generatePerson = () => {
 
 const  dom = generatePerson();
 console.log(dom);
-// tt
+// t
 // var Chance = require ('chance');
 // var chance = new Chance();
 
