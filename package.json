@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "package-lock.json": "^1.0.0",
-    "yarn": "^1.22.21"
+    "chance": "^1.1.11"
   }
 }
