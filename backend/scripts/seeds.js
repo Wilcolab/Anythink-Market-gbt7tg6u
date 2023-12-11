@@ -1,14 +1,15 @@
 //TODO: seeds script should come here, so we'll be able to put some data in our local env
-var faker = require('./node_modules/faker');
-// const faker = new Faker();
+import Chance from 'chance';
+var chance = new Chance();
+
 
 function main() {
     Array.from( { length:100 }).map(async (i) => {
-        await faker.user.create({
+        await chance.user.create({
             data: {
-                user: faker.name.user(),
-                product: faker.commerce.product,
-                comment: faker.lorem.comment,
+                user: chance.name.user(),
+                product: chance.commerce.product,
+                comment: chance.lorem.comment,
             },
         });
     });
